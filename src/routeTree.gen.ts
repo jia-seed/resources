@@ -14,6 +14,7 @@ import { Route as PagedRouteImport } from './routes/paged'
 import { Route as PagecRouteImport } from './routes/pagec'
 import { Route as PagebRouteImport } from './routes/pageb'
 import { Route as PageaRouteImport } from './routes/pagea'
+import { Route as CubeRouteImport } from './routes/cube'
 import { Route as IndexRouteImport } from './routes/index'
 
 const PageeRoute = PageeRouteImport.update({
@@ -41,6 +42,11 @@ const PageaRoute = PageaRouteImport.update({
   path: '/pagea',
   getParentRoute: () => rootRouteImport,
 } as any)
+const CubeRoute = CubeRouteImport.update({
+  id: '/cube',
+  path: '/cube',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
@@ -49,6 +55,7 @@ const IndexRoute = IndexRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/cube': typeof CubeRoute
   '/pagea': typeof PageaRoute
   '/pageb': typeof PagebRoute
   '/pagec': typeof PagecRoute
@@ -57,6 +64,7 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/cube': typeof CubeRoute
   '/pagea': typeof PageaRoute
   '/pageb': typeof PagebRoute
   '/pagec': typeof PagecRoute
@@ -66,6 +74,7 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/cube': typeof CubeRoute
   '/pagea': typeof PageaRoute
   '/pageb': typeof PagebRoute
   '/pagec': typeof PagecRoute
@@ -74,14 +83,30 @@ export interface FileRoutesById {
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/pagea' | '/pageb' | '/pagec' | '/paged' | '/pagee'
+  fullPaths:
+    | '/'
+    | '/cube'
+    | '/pagea'
+    | '/pageb'
+    | '/pagec'
+    | '/paged'
+    | '/pagee'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/pagea' | '/pageb' | '/pagec' | '/paged' | '/pagee'
-  id: '__root__' | '/' | '/pagea' | '/pageb' | '/pagec' | '/paged' | '/pagee'
+  to: '/' | '/cube' | '/pagea' | '/pageb' | '/pagec' | '/paged' | '/pagee'
+  id:
+    | '__root__'
+    | '/'
+    | '/cube'
+    | '/pagea'
+    | '/pageb'
+    | '/pagec'
+    | '/paged'
+    | '/pagee'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  CubeRoute: typeof CubeRoute
   PageaRoute: typeof PageaRoute
   PagebRoute: typeof PagebRoute
   PagecRoute: typeof PagecRoute
@@ -126,6 +151,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof PageaRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/cube': {
+      id: '/cube'
+      path: '/cube'
+      fullPath: '/cube'
+      preLoaderRoute: typeof CubeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/': {
       id: '/'
       path: '/'
@@ -138,6 +170,7 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  CubeRoute: CubeRoute,
   PageaRoute: PageaRoute,
   PagebRoute: PagebRoute,
   PagecRoute: PagecRoute,

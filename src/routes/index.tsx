@@ -21,6 +21,7 @@ function Home() {
       <li>d. <Link to="/paged">how this website was built</Link></li>
       <li>e. <Link to="/pagee">security practices</Link></li>
       <li><a href="https://youtu.be/GfqDIcrhqxM?si=urAhGNyo56dAGgpS">EXTREMELY IMPORTANT CONCEPTS MUST READ</a></li>
+      <li><Link to="/cube">bonus (hehe): how to solve a rubik's cube</Link></li>
     </ul>
     </div>
   )
