@@ -14,15 +14,13 @@ function Home() {
     <div style={{ padding: '2rem' }}>
     <h1>technical stuff</h1>
     <p>so i made this for my awesome friend entirely from scratch without any coding agents and minimal copy and paste using tan stack start. in addition all the contents on the site are also handwritten without ai which means the grammar will be egregious. apologies in advance. down in ohio swag like ohio type of thing.</p>
-    <Link to="/pagea">a. conceptual stuff</Link>
-    <p></p>
-    <Link to="/pageb">b. practical stuff</Link>
-    <p></p>
-    <Link to="/pagec">c. agentic engineering</Link>
-    <p></p>
-    <a href="https://youtu.be/GfqDIcrhqxM?si=urAhGNyo56dAGgpS">EXTREMELY IMPORTANT CONCEPTS MUST READ</a>
-    <p></p>
-    <Link to="/paged">how this website was built</Link>
+    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+      <li>a. <Link to="/pagea">conceptual stuff</Link></li>
+      <li>b. <Link to="/pageb">practical stuff</Link></li>
+      <li>c. <Link to="/pagec">agentic engineering</Link></li>
+      <li><a href="https://youtu.be/GfqDIcrhqxM?si=urAhGNyo56dAGgpS">EXTREMELY IMPORTANT CONCEPTS MUST READ</a></li>
+      <li><Link to="/paged">how this website was built</Link></li>
+    </ul>
     </div>
   )
 }
