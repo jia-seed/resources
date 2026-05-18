@@ -11,7 +11,7 @@ function PageA() {
         <p>1. some (not all) different programming languages and their overarching differences</p>
         <p>- typescript</p>
         <p>- javascript</p>
-        <p>- spython</p>
+        <p>- python</p>
         <p>- c++</p>
     </div>
   )
