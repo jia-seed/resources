@@ -18,8 +18,9 @@ function Home() {
       <li>a. <Link to="/pagea">conceptual stuff</Link></li>
       <li>b. <Link to="/pageb">practical stuff</Link></li>
       <li>c. <Link to="/pagec">agentic engineering</Link></li>
+      <li>d. <Link to="/paged">how this website was built</Link></li>
+      <li>e. <Link to="/pagee">security practices</Link></li>
       <li><a href="https://youtu.be/GfqDIcrhqxM?si=urAhGNyo56dAGgpS">EXTREMELY IMPORTANT CONCEPTS MUST READ</a></li>
-      <li><Link to="/paged">how this website was built</Link></li>
     </ul>
     </div>
   )
