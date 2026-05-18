@@ -5,5 +5,7 @@ export const Route = createFileRoute('/pageb')({
 })
 
 function PageB() {
-  return <div>Hello "/pageb"!</div>
+  return (<div>Hello "/pageb"!</div>
+
+  )
 }
