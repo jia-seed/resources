@@ -23,7 +23,7 @@ export const Route = createRootRoute({
       },
     ],
     links: [
-      { rel: 'icon', type: 'image/png', href: '/computec.png'},
+      { rel: 'icon', type: 'image/png', href: '/compute.png'},
       { rel: 'compute', href: '/compute.png'},
     ],
   }),
