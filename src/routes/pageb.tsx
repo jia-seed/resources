@@ -1,9 +1,9 @@
 import { createFileRoute } from '@tanstack/react-router'
 
 export const Route = createFileRoute('/pageb')({
-  component: RouteComponent,
+  component: PageB,
 })
 
-function RouteComponent() {
+function PageB() {
   return <div>Hello "/pageb"!</div>
 }

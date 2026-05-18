@@ -22,6 +22,10 @@ export const Route = createRootRoute({
         title: 'have a resourceathon',
       },
     ],
+    links: [
+      { rel: 'icon', type: 'image/png', href: '/computec.png'},
+      { rel: 'compute', href: '/compute.png'},
+    ],
   }),
   component: RootComponent,
 })
