@@ -21,6 +21,7 @@ function Home() {
     <Link to="/pagec">c. agentic engineering</Link>
     <p></p>
     <a href="https://youtu.be/GfqDIcrhqxM?si=urAhGNyo56dAGgpS">EXTREMELY IMPORTANT CONCEPTS MUST READ</a>
+    <Link to="/paged">how this website was built</Link>
     </div>
   )
 }
