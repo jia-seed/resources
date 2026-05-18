@@ -5,7 +5,10 @@ export const Route = createFileRoute('/pageb')({
 })
 
 function PageB() {
-  return (<div>Hello "/pageb"!</div>
+  return (
+  <div style={{ padding: '2rem' }}>
+    <h1>this page is for practical things. the exact step by step to building projects directly</h1>
 
+  </div>
   )
 }
