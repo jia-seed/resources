@@ -6,7 +6,7 @@ export const Route = createFileRoute('/cube')({
 
 function Cube() {
   return (
-    <div style={{ padding: '0 4rem' }}>
+    <div style={{ padding: '0 4rem 4rem' }}>
       <h1>bonus ;D how to solve a rubik's cube</h1>
 
       <p>i'm still not where i want to be in terms of solving rubik's cubes. it's been 37 days and i'm down to 20 seconds. however, i do really like it. 

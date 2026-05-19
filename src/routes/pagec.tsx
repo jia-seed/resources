@@ -6,7 +6,7 @@ export const Route = createFileRoute('/pagec')({
 
 function PageC() {
   return (
-    <div style={{ padding: '0 4rem '}}>
+    <div style={{ padding: '0 4rem 4rem'}}>
         <h1>agentic engineering</h1>
         <p>aka you just give everything to claude code</p>
         <p>how to use claude code in the terminal</p>
