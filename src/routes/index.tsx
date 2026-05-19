@@ -23,7 +23,7 @@ function Home() {
 
     <p>
     this resources site is meant to be extremely practical. <strong>starting from the absolute, absolute beginning. assuming absolutely zero prior knowledge.</strong> there's minimal theory and it's for project building. in 2026, everyone is writing code with ai and people don't understand anything. which they really don't need to lowkey. however, i wanted to make this per the conversation with my friend, 
-    but i also want to deepen my own understanding of how things work, because majoring in computer engineering barely taught me anything. and, i imagine that's kind of how it is for the majority of compsci/eng students regarding how to build practical projects lol.
+    but i also want to deepen my own understanding of how things work, because majoring in computer engineering barely taught me anything. and, i imagine that's kind of how it is for the majority of compsci/eng students regarding building practical projects lol.
     </p>
     <h2>all the contents are here:</h2>
     <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>

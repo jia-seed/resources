@@ -24,7 +24,17 @@ function Cube() {
           <li>- <a href="https://youtu.be/Ar_Zit1VLG0?si=eRHG6cN3ix2nA__D">f2l</a></li>
           <li>- <a href="https://youtu.be/GhmYBgLoQQg?si=h1j0B_DkIpYUtoct">2 look oll</a></li>
           <li>- <a href="https://youtu.be/f_Yor-ydZjs?si=tXfLIITFIRIpglO1">2 look pll</a></li>
-        </ul>
+      </ul>
+
+      <p><strong>rubik's cube journey</strong></p>
+
+      <iframe
+            src="https://youtube.com/embed/1aJIF6LKXqo?cc_load_policy=1&autoplay=1&mute=1"
+            style={{ width: '100%', maxWidth: '720px', aspectRatio: '16 / 9', border: 'none' }}
+            title="multi-cursor editing example"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
     </div> 
   )
 }

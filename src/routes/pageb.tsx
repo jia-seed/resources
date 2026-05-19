@@ -36,3 +36,4 @@ function PageB() {
 }
 //make a section about cc_load_policy=1 is captions are shown by default when video starts, &, broswers block autoplay with sound, so mute=1 is necessary if using autoplay=1. used like autoplay=1&mute=1
 //make a section about the style for responsiveness for iframe 
+//the ? marks where the url path ends and url parameters begin. it's syntax for passing extra info to a server or service. the query string is the params, (cc_load_policy=1&autoplay=1&mute=1) are key-value pairs giving extra instructions
