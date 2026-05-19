@@ -6,6 +6,7 @@ import {
   createRootRoute,
   HeadContent,
   Scripts,
+  Link,
 } from '@tanstack/react-router'
 
 export const Route = createRootRoute({
@@ -43,8 +44,21 @@ function RootDocument({ children }: Readonly<{ children: ReactNode }>) {
     <html>
       <head>
         <HeadContent />
+        <style>{`
+          body { margin: 0; padding: 0; }
+          h1 { margin-top: 0; }
+        `}</style>
       </head>
       <body>
+        <nav style={{ padding: '4rem 1rem 1rem 4rem' }}> 
+          <Link to="/">
+            <img
+              src="/computeblack.png"
+              alt="home"
+              style={{ width: '40px', height: '40px', display: 'block' }}
+            />
+          </Link>
+        </nav>
         {children}
         <Scripts />
       </body>

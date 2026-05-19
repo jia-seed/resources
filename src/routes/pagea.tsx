@@ -6,7 +6,7 @@ export const Route = createFileRoute('/pagea')({
 
 function PageA() {
   return ( 
-    <div style={{ padding: '2rem' }}>
+    <div style={{ padding: '0 4rem' }}>
         <h1>this page is for the conceptual aspects of technical stuff</h1> 
         <p>1. some (not all) different programming languages and their overarching differences</p>
         <p>- typescript</p>
