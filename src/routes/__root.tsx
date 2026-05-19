@@ -25,7 +25,7 @@ export const Route = createRootRoute({
     ],
     links: [
       { rel: 'icon', type: 'image/png', href: '/computewhite.png'},
-      { rel: 'compute', href: '/computewhite.png'},
+      { rel: 'computewhite', href: '/computewhite.png'},
     ],
   }),
   component: RootComponent,
