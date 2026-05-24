@@ -15,6 +15,8 @@ function PageA() {
           <li>- javascript</li>
           <li>- python</li>
           <li>- c++</li>
+          <li>- rust</li>
+          <li>- go</li>
         </ul>
         <h2>random things i thought about that you have to know</h2>
         <p>people always ask these questions in some kind of way to assert dominance. i really should organize this page.</p>

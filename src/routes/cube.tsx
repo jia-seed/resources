@@ -9,7 +9,7 @@ function Cube() {
     <div style={{ padding: '0 4rem 4rem' }}>
       <h1>bonus ;D how to solve a rubik's cube</h1>
 
-      <p>i'm still not where i want to be in terms of solving rubik's cubes. it's been 37 days and i'm down to 20 seconds. however, i do really like it. 
+      <p>i'm still not where i want to be in terms of solving rubik's cubes. <strong>it's been 37 days and i'm down to 20 seconds</strong>. however, i do really, really love it. 
         this was my progression i'm breaking down here.</p>
         
       <p>i started 4/12/2026 and did beginner's method on day 1, then i learned f2l on 4/19, day 8. on 4/29, day 18, i was enjoying f2l and beginner's ll, which got me down to 36 seconds.

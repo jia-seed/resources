@@ -14,7 +14,7 @@ function Home() {
     <div style={{ padding: '0 4rem 4rem' }}> 
     <h1>technical stuff</h1>
 
-    <p style={{ color: 'darkgreen' }}><strong>updates!</strong> 5-18-26 [10:13pm pst] updates to resources.build are a rubik's cube solving page <Link to="/cube">[bonus cube page]</Link> (nicely filled out for now), a security practices page <Link to="/pagee">[page e]</Link>, some vscode shortcuts in practical stuff <Link to="/pageb">[page b]</Link>. in addition i just improved the padding lol.</p>
+    <p style={{ color: 'darkgreen' }}><strong>updates!</strong> 5-18-26 [10:13pm pst] updates to resources.build are a rubik's cube solving page <Link to="/cube">[bonus cube page]</Link> (nicely filled out for now), a security practices page <Link to="/pagee">[page e]</Link>, some vscode shortcuts in practical stuff <Link to="/pageb">[page b]</Link>. in addition i just improved the padding lol. + VIDEO EXAMPLES</p>
 
     <p style={{ color: 'darkgreen' }}>things that are coming soon: building an entire next.js project from scratch, doing everything in the terminal, and how this site was built.</p>
 
