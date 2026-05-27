@@ -42,15 +42,19 @@ function CatSite() {
             <p>now change directory (cd) to the catsite</p>
             <code>cd catsite</code>
 
-            <p>reference to a <a href="https://medium.com/@aleksej.gudkov/rust-website-example-building-a-simple-website-with-rust-and-axum-6edde86a33f1">good article</a> i looked thru for this btw</p>
+            <p>reference to a <a href="https://rust-classes.com/chapter_7_1">good article</a> i looked thru for this btw</p>
             
             
             <h2>deploying on railway</h2>
             <p> on railway </p>
             <h2>the porkbun domain</h2>
-
+            <p>delete the alias and cname values that are already in porkbun for your domain in that domain's settings</p>
+            <p>go to the settings in railway and click +custom domain. railway usually detects the port, and in my case it detected 3000, but i knew it was listening from 8080, so i put 8080. then you can add the domain and then it will show the dns records. put them into porkbun as it asks (however, for me there was an error on porkbun saying couldn't have a cname on root domain, so it recommended alias and all i did was just keep the same info but switch it to alias) then u are good to go.</p>
+            
             <h2>bonus: songs i was listening to while building this site</h2>
             <iframe data-testid="embed-iframe" style={{ borderRadius: '12px' }} src="https://open.spotify.com/embed/track/1ZP5p9NeCRxWiL2RlAp5F0?utm_source=generator" width="30%" height="80" frameBorder="0" allowFullScreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"/>
+            <p>league music rly got me going</p>
+            <iframe data-testid="embed-iframe" style={{ borderRadius: '12px' }} src="https://open.spotify.com/embed/track/4RCR0MZdC2mDoD0NjaRoSs?utm_source=generator" width="30%" height="80" frameBorder="0" allowFullScreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"/>
 
 
             <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
