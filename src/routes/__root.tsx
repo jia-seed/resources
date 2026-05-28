@@ -47,7 +47,29 @@ function RootDocument({ children }: Readonly<{ children: ReactNode }>) {
         <style>{`
           body { margin: 0; padding: 0; }
           h1 { margin-top: 0; }
-        `}</style>
+          code {
+          background: #f4f4f4;
+          padding: 0.75rem 1rem;
+          border-radius: 4px;
+          overflow-x: auto;
+          font-family: monospace;
+          font-size: 0.8rem;
+          line-height: 1.4;
+          white-space: pre-wrap;
+          word-break: break-word;
+          max-width: 100%;
+          margin: 0.5rem 0;
+          }
+          pre {
+          background: #f4f4f4;
+          padding: 0.75rem 1rem;
+          font-family: inherit;
+          line-height: 1.8;
+          font-size: inherit;
+          font-weight: inherit;
+          max-width: 600px;
+          }
+          `}</style>
       </head>
       <body>
         <nav style={{ padding: '4rem 1rem 1rem 4rem' }}> 
