@@ -14,13 +14,15 @@ function CatSite() {
                 <p>then for the cat pics used <a href="https://cataas.com/">cataas</a>, a rest api for cat pics</p>
             <h2>setting up the site</h2>
             <p>install rust with this command here and then create a new folder</p>
-            <code>curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh</code>
+            
+            <pre><code>curl --proto '=https' --tlsv1.2 
+                      -sSf https://sh.rustup.rs | sh</code></pre>
             
             <p>run this command in your terminal</p>
             <img
               src="/catsite/rustinstall.png"
               alt="home"
-              style={{ width: '400px', height: '200px', display: 'block' }}
+              style={{ width: '300px', height: '150px', display: 'block' }}
             />
             <p>install worked but unfortch that current shell didn't know about cargo yet. so to load it into that terminal session run this:</p>
             <code>. "$HOME/.cargo/env"</code>
@@ -28,7 +30,7 @@ function CatSite() {
             <img
               src="/catsite/loadterminal.png"
               alt="home"
-              style={{ width: '300px', height: '60px', display: 'block' }}
+              style={{ width: '200px', height: '40px', display: 'block' }}
             />
 
             <p>now you can make the site with <code>cargo new catsite</code></p>
@@ -36,7 +38,7 @@ function CatSite() {
             <img
               src="/catsite/newcatsite.png"
               alt="home"
-              style={{ width: '400px', height: '100px', display: 'block' }}
+              style={{ width: '200px', height: '50px', display: 'block' }}
             /> 
             
             <p>now change directory (cd) to the catsite</p>
@@ -46,13 +48,11 @@ function CatSite() {
             <p>reference to a <a href="https://github.com/tokio-rs/axum/blob/main/examples/hello-world/src/main.rs">https://github.com/tokio-rs/axum/blob/main/examples/hello-world/src/main.rs</a> tokio example on github</p>
             
             <p>add tokio and axum as dependencies to ur cargo.toml</p>
-
-            <p style={{ color: 'darkgreen' }}><strong>- update</strong> 5-24-26 [11:41pm pst] updates to resources.build are just some setup for some new pages. i'm staying focused, aren't i...</p>
  
             <img
               src="/catsite/dependencies.png"
               alt="home"
-              style={{ width: '400px', height: '200px', display: 'block' }}
+              style={{ width: '200px', height: '110px', display: 'block' }}
             /> 
             <pre><code>{`
 [dependencies]
@@ -66,7 +66,7 @@ axum = "0.7"
             <img
               src="/catsite/generalsetup.png"
               alt="home"
-              style={{ width: '400px', height: '200px', display: 'block' }}
+              style={{ width: '270px', height: '150px', display: 'block' }}
             /> 
             <pre><code>{`
 use axum::{response::Response, http::header, Router, routing::get, serve};
@@ -89,7 +89,7 @@ async fn main() {
             <img
               src="/catsite/helloworld.png"
               alt="home"
-              style={{ width: '400px', height: '200px', display: 'block' }}
+              style={{ width: '200px', height: '100px', display: 'block' }}
             /> 
       
               
@@ -143,7 +143,7 @@ async fn favicon() -> Response {
             <img
               src="/catsite/fabtab.png"
               alt="home"
-              style={{ width: '300px', height: '100px', display: 'block' }}
+              style={{ width: '200px', height: '70px', display: 'block' }}
             />  
 
             <h2>bonus: song i was listening to while building this site</h2>
