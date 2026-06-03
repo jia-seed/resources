@@ -33,6 +33,7 @@ function Home() {
       <li>f. <Link to="/pagef">leetcode</Link></li>
       <li>g. hardware stuff</li>
       <li>h. <Link to="/pageh">cat picture website in rust</Link></li>
+      <li>i. <Link to="/pagei">how to make and edit content :3</Link></li>
       <li><a href="https://youtu.be/GfqDIcrhqxM?si=urAhGNyo56dAGgpS">EXTREMELY IMPORTANT CONCEPTS MUST READ</a></li>
       <li><Link to="/cube">[bonus] (hehe): how to solve a rubik's cube</Link></li>
       <li>[bonus] how to make peach jam matcha</li>

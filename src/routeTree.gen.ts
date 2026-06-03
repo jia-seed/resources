@@ -9,6 +9,7 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as PageiRouteImport } from './routes/pagei'
 import { Route as PagehRouteImport } from './routes/pageh'
 import { Route as PagegRouteImport } from './routes/pageg'
 import { Route as PagefRouteImport } from './routes/pagef'
@@ -20,6 +21,11 @@ import { Route as PageaRouteImport } from './routes/pagea'
 import { Route as CubeRouteImport } from './routes/cube'
 import { Route as IndexRouteImport } from './routes/index'
 
+const PageiRoute = PageiRouteImport.update({
+  id: '/pagei',
+  path: '/pagei',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const PagehRoute = PagehRouteImport.update({
   id: '/pageh',
   path: '/pageh',
@@ -82,6 +88,7 @@ export interface FileRoutesByFullPath {
   '/pagef': typeof PagefRoute
   '/pageg': typeof PagegRoute
   '/pageh': typeof PagehRoute
+  '/pagei': typeof PageiRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -94,6 +101,7 @@ export interface FileRoutesByTo {
   '/pagef': typeof PagefRoute
   '/pageg': typeof PagegRoute
   '/pageh': typeof PagehRoute
+  '/pagei': typeof PageiRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -107,6 +115,7 @@ export interface FileRoutesById {
   '/pagef': typeof PagefRoute
   '/pageg': typeof PagegRoute
   '/pageh': typeof PagehRoute
+  '/pagei': typeof PageiRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -121,6 +130,7 @@ export interface FileRouteTypes {
     | '/pagef'
     | '/pageg'
     | '/pageh'
+    | '/pagei'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -133,6 +143,7 @@ export interface FileRouteTypes {
     | '/pagef'
     | '/pageg'
     | '/pageh'
+    | '/pagei'
   id:
     | '__root__'
     | '/'
@@ -145,6 +156,7 @@ export interface FileRouteTypes {
     | '/pagef'
     | '/pageg'
     | '/pageh'
+    | '/pagei'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -158,10 +170,18 @@ export interface RootRouteChildren {
   PagefRoute: typeof PagefRoute
   PagegRoute: typeof PagegRoute
   PagehRoute: typeof PagehRoute
+  PageiRoute: typeof PageiRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/pagei': {
+      id: '/pagei'
+      path: '/pagei'
+      fullPath: '/pagei'
+      preLoaderRoute: typeof PageiRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/pageh': {
       id: '/pageh'
       path: '/pageh'
@@ -246,6 +266,7 @@ const rootRouteChildren: RootRouteChildren = {
   PagefRoute: PagefRoute,
   PagegRoute: PagegRoute,
   PagehRoute: PagehRoute,
+  PageiRoute: PageiRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
