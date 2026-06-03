@@ -24,7 +24,7 @@ function PageA() {
           <li>- what is a pointer</li>
           <li>-how to reverse a binary tree</li>
         </ul>
-        <h2>Http vs https</h2>
+        <h2>http vs https</h2>
         <p>the “s” in https stand for “secure” 
         plain http sends everything back and forth as readable text, so someone on the same wifi or network could see the contents and tamper with it. so https wraps the http traffic in an encryption layer called tls that does a. encryption (scrambles data so anyone intercepting it sees gibberish, not passwords messages or page contents) b. Integrity (detects if data was altered in transit so ppl can’t tamper), c. authentication (ssl/tls certificate proves server is who it claims to be, not imposter).
         </p>
