@@ -16,7 +16,7 @@ function Home() {
     
     <p style={{ color: 'darkgreen' }}><strong>- update</strong> 5-28-26 [12:05am pst] updates to resources.build include the rust cat page h. the basic setup, deployment, and favicon</p>
 
-    <p>so i made this for my awesome friend entirely from scratch without any coding agents and minimal copy and paste using tan stack start. in addition all the contents on the site are also handwritten without ai which means the grammar will be egregious. 
+    <p>so i made this for my awesome friends entirely from scratch without any coding agents and minimal copy and paste using tan stack start. in addition all the contents on the site are also handwritten without ai which means the grammar will be egregious. 
     apologies in advance. down in ohio swag like ohio type of thing.</p>
 
     <p>
