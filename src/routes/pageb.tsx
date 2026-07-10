@@ -31,6 +31,10 @@ function PageB() {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           />
+
+        <p>if you have a image with the background removed that u downloaded, but it shows up on your next.js site with a white background add</p>
+        <pre><code>{`unoptimized={true}`}</code></pre>
+        <img src="/pageb/joptimized.png"  style={{ width: '800px', height: '300px', display: 'block' }}></img>
     </div>
   )
 }

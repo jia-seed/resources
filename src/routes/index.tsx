@@ -14,7 +14,7 @@ function Home() {
     <div style={{ padding: '0 4rem 4rem' }}> 
     <h1>technical stuff</h1>
     
-    <p style={{ color: 'darkgreen' }}><strong>- update</strong> 5-28-26 [12:05am pst] updates to resources.build include the rust cat page h. the basic setup, deployment, and favicon</p>
+    <p style={{ color: 'darkgreen' }}><strong>- update </strong>7-9-26 [10pm pst] added the random note abt optimized images on pageb.</p>
 
     <p>so i made this for my awesome friends entirely from scratch without any coding agents and minimal copy and paste using tan stack start. in addition all the contents on the site are also handwritten without ai which means the grammar will be egregious. 
     apologies in advance. down in ohio swag like ohio type of thing.</p>
@@ -45,6 +45,7 @@ function Home() {
       <summary>previous updates to this site</summary>
       <p></p>
       <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+        <li style={{ color: 'darkgreen' }}><strong>- update</strong>5-28-26 [12:05am pst] updates to resources.build include the rust cat page h. the basic setup, deployment, and favicon.</li>
         <li style={{ color: 'darkgreen' }}><strong>- update</strong> 5-24-26 [11:41pm pst] updates to resources.build are just some setup for some new pages. i'm staying focused, aren't i...</li>
         <li style={{ color: 'darkgreen' }}><strong>- update</strong> 5-18-26 [10:13pm pst] updates to resources.build are a rubik's cube solving page <Link to="/cube">[bonus cube page]</Link> (nicely filled out for now), a security practices page <Link to="/pagee">[page e]</Link>, some vscode shortcuts in practical stuff <Link to="/pageb">[page b]</Link>. in addition i just improved the padding lol. + VIDEO EXAMPLES.
     things that are coming soon: building an entire next.js project from scratch, doing everything in the terminal, and how this site was built.</li>
