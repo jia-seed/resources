@@ -31,7 +31,7 @@ function Home() {
       <li>d. <Link to="/paged">how this website was built</Link></li>
       <li>e. <Link to="/pagee">security practices</Link></li>
       <li>f. <Link to="/pagef">leetcode</Link></li>
-      <li>g. hardware stuff</li>
+      <li>g. <Link to="/pageg">hardware stuff</Link></li>
       <li>h. <Link to="/pageh">cat picture website in rust</Link></li>
       <li>i. <Link to="/pagei">how to make and edit content :3</Link></li>
       <li><a href="https://youtu.be/GfqDIcrhqxM?si=urAhGNyo56dAGgpS">EXTREMELY IMPORTANT CONCEPTS MUST READ</a></li>
